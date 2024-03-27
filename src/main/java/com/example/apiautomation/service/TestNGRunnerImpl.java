@@ -30,6 +30,4 @@ public class TestNGRunnerImpl {
 
         return reportingListener.getTestSuiteResults();
     }
-
-
 }
