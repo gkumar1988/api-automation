@@ -1,0 +1,13 @@
+ext.versions = [
+        springboot : '2.7.14',
+        jsonpath   : '2.4.0',
+        restassured: '3.1.1',
+        testng     : '7.0.0',
+        opencsv    : '4.1',
+        mongodriver: '3.4.3',
+        googletruth: '1.0',
+        orgjson    : '20240205',
+        swagger    : '3.0.0',
+        lombok     : '1.18.22',
+        immutables : '2.7.1'
+]
