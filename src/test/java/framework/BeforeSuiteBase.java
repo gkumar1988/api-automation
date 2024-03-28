@@ -28,7 +28,7 @@ public class BeforeSuiteBase {
         commonProperties.setProperty(SuiteVariables.ENVIRONMENT.getValue(), testEnvironment);
 
         //load test environment properties
-        Properties environmentProperties = new TestPropertiesLoader().loadProperties(RunnerVariables.ENVIRONMENT.getValue());
+        Properties environmentProperties = new TestPropertiesLoader().loadProperties(testEnvironment);
         mergeProperties(commonProperties, environmentProperties);
     }
 
